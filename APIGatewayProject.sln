@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIGateway", "APIGateway\APIGateway.csproj", "{58FDB97F-16BD-468F-825B-D6B3847A2986}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomersAPIServices", "CustomersAPIServices\CustomersAPIServices.csproj", "{9A7CE86A-2075-4630-A764-CB9B6B490FCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsAPIServices", "ProductsAPIServices\ProductsAPIServices.csproj", "{F1C3B5EA-33E2-49C1-9EA2-01ECACC11B10}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58FDB97F-16BD-468F-825B-D6B3847A2986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58FDB97F-16BD-468F-825B-D6B3847A2986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58FDB97F-16BD-468F-825B-D6B3847A2986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58FDB97F-16BD-468F-825B-D6B3847A2986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A7CE86A-2075-4630-A764-CB9B6B490FCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A7CE86A-2075-4630-A764-CB9B6B490FCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A7CE86A-2075-4630-A764-CB9B6B490FCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A7CE86A-2075-4630-A764-CB9B6B490FCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1C3B5EA-33E2-49C1-9EA2-01ECACC11B10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1C3B5EA-33E2-49C1-9EA2-01ECACC11B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1C3B5EA-33E2-49C1-9EA2-01ECACC11B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1C3B5EA-33E2-49C1-9EA2-01ECACC11B10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
